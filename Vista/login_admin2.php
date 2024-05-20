@@ -1,6 +1,4 @@
-<?php
-    include("../navbar/MenuPrincipal.php")
-?>
+
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -12,21 +10,24 @@
 </head>
 
 <body>
-<form action="../validaciones/validacion_admin.php" method="post">
-  <div class="mb-3">
+<div>
+  <?php
+      include("navbar.php");
+   ?>
+</div>
+<form class="d-flex justify-content-center align-items-center" action="../Modelo/validacion_admin.php" method="post">
+  <div>
     <label for="exampleInputEmail1" class="form-label">Email address</label>
     <input type="text" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" name="usuario">
     <div id="emailHelp" class="form-text">Nombre de usuario.</div>
-  </div>
-  <div class="mb-3">
+  
     <label for="exampleInputPassword1" class="form-label">Password</label>
     <input type="password" class="form-control" id="exampleInputPassword1" name="contraseña">
   </div>
-  <div class="mb-3 form-check">
-  </div>
-  <button type="submit" class="btn btn-primary">ingresar</button>
+  <button type="submit" class="btn btn-primary">ingresar</button><br><br><br>
 </form>
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" 
 integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
 </body>
+
 </html>

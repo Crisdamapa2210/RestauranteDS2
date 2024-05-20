@@ -1,3 +1,3 @@
 <?php 
-header("Location: navbar/MenuPrincipal.php")
+header("Location: Vista/menuprincipal.php")
 ?>
