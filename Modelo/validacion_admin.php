@@ -15,7 +15,7 @@ $filas = mysqli_num_rows($resultado);
 if ($filas) {
     header("location: ../menu_admin.php"); 
 } else {
-    include("login_admin.php");
+    include("login_admin2.php");
     ?>
     <h1 class="bad">Usuario o contraseña equivocados</h1>
     <?php

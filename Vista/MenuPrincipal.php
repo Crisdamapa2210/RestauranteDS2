@@ -17,7 +17,7 @@
     <div class="collapse navbar-collapse" id="navbarSupportedContent">
       <ul class="navbar-nav me-auto mb-2 mb-lg-0">
         <li class="nav-item">
-          <a class="nav-link active" aria-current="page" href="#">Registrar</a>
+          <a class="nav-link active" aria-current="page" href="../logins/login_admin2.php">login prueba</a>
         </li>
         <li class="nav-item">
           <a class="nav-link" href="../signups/signup_ususario.php">Registrar</a>

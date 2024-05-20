@@ -38,6 +38,7 @@ include("../bd.php");
         <td><?php echo $mostrar['Dirección']?></td>
         <td><?php echo $mostrar['Telefono']?></td>
         <td><?php echo $mostrar['Activo']?></td>
+        <td ><center> <button type="submit" name="update"><img src="../imagen/edit.png" height="30px" width="30px" alt="editar"></button></center></td>
     </tr>
     <?php 
     }
