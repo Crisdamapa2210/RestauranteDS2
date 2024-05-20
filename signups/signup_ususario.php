@@ -7,8 +7,7 @@
 </head>
 <body>
     <form method="post">
-    	<h1>Registrarse</h1>
-        <p>¿Ya tienes una cuenta? <a href="../logins/login_user.php">Ingresar</a></p>
+    	<h1>Registrarse</h1>        
     	<input type="text" name="Usuario" placeholder="Nombre completo">
          <input type="text" name="Telefono" placeholder="Telefono">
         <input type="text" name="Direccion" placeholder="Dirección">
