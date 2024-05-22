@@ -17,7 +17,7 @@ if ($filas) {
 } else {
     include("login_vendedor.php");
     ?>
-    <h1 class="bad">Usuario o contraseña equivocados</h1>
+    
     <?php
 }
 mysqli_free_result($resultado);

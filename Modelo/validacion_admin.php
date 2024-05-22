@@ -13,10 +13,12 @@ $resultado = mysqli_query($conexion,$consulta);
 $filas = mysqli_num_rows($resultado);
 
 if ($filas) {
-    header("location: ../Vista/menu_admin.php"); 
+    header("location: ../menu_admin.php"); 
 } else {
-    header("location: ../Vista/login_admin2.php"); // Redirigir de vuelta al formulario de inicio de sesión
-    exit; // Terminar el script para evitar ejecutar más código
+    include("../logins/login_admin.php");
+    ?>
+    <h1 class="bad">Usuario o contraseña equivocados</h1>
+    <?php
 }
 mysqli_free_result($resultado);
 mysqli_close($conexion);

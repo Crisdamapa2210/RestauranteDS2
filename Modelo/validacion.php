@@ -15,7 +15,7 @@ $filas = mysqli_num_rows($resultado);
 if ($filas) {
     header("location: ../home.php"); 
 } else {
-    include("../logins/login_user.php");
+    include("location: ../logins/login_user.php");
     ?>
     <h1 class="bad">Usuario o contraseña equivocados</h1>
     <?php
