@@ -8,8 +8,12 @@
     <title>Document</title>
 </head>
 <body>
+<?php
+      include("../navbar/navbar_vista.php");
+   ?>
 
 <form action="editar_ven.php" method="post">
+
         <h1>Editar datos</h1>
         <p><input type="number" placeholder="ID del usuario a modificar" name="ID"></p>
         <p><input type="text" placeholder="ingrese su nuevo usuario" name="new_usuario"></p>

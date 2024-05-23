@@ -1,3 +1,6 @@
+<?php
+      include("../navbar/dir_navbar.php");
+   ?>
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -8,8 +11,12 @@
     <title>Document</title>
 </head>
 <body>
-
+<?php
+      incluir_navbar();
+   ?>
 <form action="editar_admin.php" method="post">
+
+    
         <h1>Editar datos</h1>
         <p><input type="number" placeholder="ID del usuario a modificar" name="ID"></p>
         <p><input type="text" placeholder="ingrese su nuevo usuario" name="new_usuario"></p>

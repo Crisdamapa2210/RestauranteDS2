@@ -1,3 +1,6 @@
+<?php
+    include("../navbar/dir_navbar.php");
+?>
 <!DOCTYPE html>
 <html>
 <head>
@@ -6,6 +9,9 @@
 	<link rel="stylesheet" type="text/css" href="../styleLogin.css">
 </head>
 <body>
+<?php
+      incluir_navbar();
+   ?>
     <form method="post">
     	<h1>Registrar vendedor</h1>
 		<a href="../menu_admin.php">volver</a>

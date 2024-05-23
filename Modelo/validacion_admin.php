@@ -13,13 +13,16 @@ $resultado = mysqli_query($conexion,$consulta);
 $filas = mysqli_num_rows($resultado);
 
 if ($filas) {
-    header("location: ../menu_admin.php"); 
+    header("location: ../Vista/menu_admin.php"); 
 } else {
-    include("../logins/login_admin.php");
+    
+    include("../Vista/login_admin2.php");
     ?>
-    <h1 class="bad">Usuario o contraseña equivocados</h1>
+    <br>
+    <h1 class="bad bg-danger d-flex justify-content-center">Usuario o contraseña equivocados</h1>
     <?php
 }
 mysqli_free_result($resultado);
 mysqli_close($conexion);
+
 ?>

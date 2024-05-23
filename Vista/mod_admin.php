@@ -7,6 +7,9 @@
     <link rel="stylesheet" type="text/css" href="styleLogin.css">
 </head>
 <body>
+<?php
+      include("../navbar/navbar_vista.php");
+   ?>
     <form action="validacionmodad.php" method="post">
         <h1>Modificacion de admins</h1>
         <p><input type="text" placeholder="ingrese su usuario" name="usuario"></p>

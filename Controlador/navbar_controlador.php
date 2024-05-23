@@ -17,24 +17,21 @@
     <div class="collapse navbar-collapse" id="navbarSupportedContent">
       <ul class="navbar-nav me-auto mb-2 mb-lg-0">
         <li class="nav-item">
-          <a class="nav-link active" aria-current="page" href="login_admin2.php">login prueba</a>
+          <a class="nav-link active" aria-current="page" href="login_admin2.php">Reservas</a>
         </li>
         <li class="nav-item">
-          <a class="nav-link" href="../Controlador/signup_ususario.php">Registrar</a>
+          <a class="nav-link " href="../Controlador/signup_ususario.php">Registrar</a>
         </li>
         <li class="nav-item dropdown">
           <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-            Inicio de sesion:D
-          </a>
+            Inicio de sesion</a>
           <ul class="dropdown-menu">
-            <li><a class="dropdown-item" href="../Vista/login_admin2.php">Admistrador</a></li>
-            <li><a class="dropdown-item" href="../Vista/login_vendedor2.php">Vendedor</a></li>
-            <li><a class="dropdown-item" href="../Vista/login_user2.php">Usuarios</a></li>
+            <li><a class="dropdown-item" href="login_admin2.php">Admistrador</a></li>
+            <li><a class="dropdown-item" href="login_vendedor2.php">Vendedor</a></li>
+            <li><a class="dropdown-item" href="login_user2.php">Usuarios</a></li>
           </ul>
         </li>
-        <li class="nav-item">
-          <a class="nav-link disabled" aria-disabled="true">Disabled</a>
-        </li>
+        
       </ul>
       <form class="d-flex" role="search">
         <input class="form-control me-2" type="search" placeholder="Busqueda" aria-label="Search">

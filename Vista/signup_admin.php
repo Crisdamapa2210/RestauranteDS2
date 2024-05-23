@@ -1,11 +1,18 @@
+<?php
+    include("../navbar/dir_navbar.php");
+?>
 <!DOCTYPE html>
 <html>
 <head>
 	<title>Registrar administrador</title>
 	<meta charset="utf-8">
 	<link rel="stylesheet" type="text/css" href="../styleLogin.css">
+   
 </head>
 <body>
+<?php
+      incluir_navbar()
+   ?>
     <form method="post">
     	<h1>Registrar administrador</h1>
        <a href="../menu_admin.php">volver</a>

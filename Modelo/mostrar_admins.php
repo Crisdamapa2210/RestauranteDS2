@@ -1,8 +1,6 @@
 <?php
 include("../bd.php");
 ?>
-
-
 <!DOCTYPE html>
 <html lang="en">
 <head>
