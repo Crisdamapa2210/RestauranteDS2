@@ -3,11 +3,11 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Otra Página</title>
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" 
     integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <title></title>
 </head>
-<body> 
+<body>
 <nav class="navbar navbar-expand-lg navbar-light bg-body-tertiary">
   <div class="container-fluid">
     <a class="navbar-brand" href="menuprincipal.php">Food's Store</a>
@@ -17,29 +17,17 @@
     <div class="collapse navbar-collapse" id="navbarSupportedContent">
       <ul class="navbar-nav me-auto mb-2 mb-lg-0">
         <li class="nav-item">
-          <a class="nav-link active" aria-current="page" href="login_admin2.php">Reservas</a>
+          <a class="nav-link active" aria-current="page" href="#">Reservas</a>
         </li>
         <li class="nav-item">
-          <a class="nav-link active" aria-current="page" href="login_admin2.php">Comida</a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link" href="../Vista/signup_ususario.php">Registrar</a>
-        </li>
-        <li class="nav-item dropdown">
-          <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-            Iniciar Sesion
-          </a>
-          <ul class="dropdown-menu justify-content-top "!important>
-            <li><a class="dropdown-item" href="login_admin2.php">Administrador</a></li>
-            <li><a class="dropdown-item" href="login_vendedor2.php">Vendedor</a></li>
-            <li><a class="dropdown-item" href="login_user2.php">Usuarios</a></li>
-          </ul>
-        </li>
-      </ul>
-      <form class="d-flex" role="search">
+          <a class="nav-link active" aria-current="page" href="#">Comida</a>
+        </li> 
+    </ul>    
+    <a class="nav-link active justify-content-end" aria-current="page" href="login_admin2.php">Salir</a>    
+    <form class="d-flex justify-content-end" role="search">
         <input class="form-control me-2" type="search" placeholder="Busqueda" aria-label="Search">
         <button class="btn btn-outline-success" type="submit">Search</button>
-      </form>
+    </form>
     </div>
   </div>
 </nav><br><br>
