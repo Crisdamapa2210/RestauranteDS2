@@ -1,24 +1,19 @@
+<?php
+    include("../navbar/dir_navbar.php");
+    ?>
 <!DOCTYPE html>
-<html lang="es">
+<html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Login</title>
-    <link rel="stylesheet" type="text/css" href="styleLogin.css">
+    <title>Document</title>
 </head>
-<body>
-<?php
-      include("../navbar/navbar_vista.php");
-   ?>
-    <form action="validacionmodad.php" method="post">
-        <h1>Modificacion de admins</h1>
-        <p><input type="text" placeholder="ingrese su usuario" name="usuario"></p>
-        <input type="submit" value="Completar   "> 
-        <p><input type="text" placeholder="ingrese su usuario" name="contraseña"></p>
-        <p><input type="text" placeholder="ingrese su usuario" name="cedula"></p>
-        <p><input type="text" placeholder="ingrese su usuario" name="telefono"></p>
-        <p><input type="text" placeholder="ingrese su usuario" name="activo"></p>
-        <input type="submit" value="Ingresar">
+<body class=bg-info>
+    <?php incluir_navbar();?>
+    <form class="d-flex justify-content-center bg-info "action="form_editar_admin.php" method="post">
+        <p><input type="text" name="cedula" placeholder="cedula del usuario "></p>
+        <p><input type="submit" name="enviar"></p>
+        
     </form>
-</body>
+</bodybg>
 </html>

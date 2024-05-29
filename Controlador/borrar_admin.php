@@ -1,11 +1,11 @@
 <?php
-$id = $_POST['id'];
+$id = $_POST['cedula'];
 session_start();
 $_SESSION['ID'] = $id;
 
-include('bd.php'); 
+include('../Modelo/bd.php'); 
 
-$consulta = "DELETE FROM vendedores WHERE id=$id";
+$consulta = "DELETE FROM admins WHERE cedula=$id";
 
 $resultado = mysqli_query($conexion,$consulta);
 

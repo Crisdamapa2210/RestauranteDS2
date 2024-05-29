@@ -18,7 +18,7 @@ include("../navbar/dir_navbar.php");
       <div 
         class="d-flex justify-content-center "><img src="../imagen/login.png" height="130px" width="130px">
       </div>
-      <h1 class="d-flex justify-content-center">Register</h1>
+      <h1 class="d-flex justify-content-center">Registrate :D</h1>
       <label for="exampleInputEmail1" class="form-label">Correo electronico</label>
       <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" name="email">
       <div id="emailHelp" class="form-text">Ingrese su correo electronico</div>  

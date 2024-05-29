@@ -6,33 +6,60 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Login</title>
+    <title>Menu administrador  </title>
     <link rel="stylesheet" type="text/css" href="styleLogin.css">
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+
 </head>
 <body>
 <?php
       incluir_navbar();
    ?>
-    <br><br>
-    <button type="button" class="btn btn-info"><a href="signups/signup_vendedor.php" style="color:#0F0908;">Crear vendedor nuevo</a></button>
-    <br>
-    <br>
-    <button type="button" class="btn btn-info"><a href="signups/signup_admin.php" style="color:#0F0908;">Crear administrador nuevo</a></button>
-    <br>
-    <br>
-    <button type="button" class="btn btn-info"><a href="mostrar/mostrar_admins.php" style="color:#0F0908;">mostrar administradores</a></button>
-    <br>
-    <br>
-    <button type="button" class="btn btn-info"><a href="mostrar/mostrar_vendedores.php" style="color:#0F0908;">mostrar vendedores</a></button>
-    <br>
-    <br>
-    <button type="button" class="btn btn-info"><a href="mostrar/mostrar_usuarios.php" style="color:#0F0908;">mostrar usuarios</a></button>
-       
-    </form>
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
     
+    <form class="d-flex justify-content-center" action="../navbar/dir_navbar.php" method="post">
+    <div class="d-flex flex-column mb-3">
+    <table>
+    <div class="d-flex justify-content-between">
+        <div>
+            <div class="p-2">
+            <h4>administradores</h4>        
+            <button type="button" name="volver">
+            <a href="signup_admin.php" style="color:#0F0908;">Crear administrador nuevo</a></button>        
+            </div>
 
+            <div class="p-2">
+            <button type="button" class="">
+            <a href="../Modelo/mostrar_admins.php" style="color:#0F0908;">mostrar administradores</a></button>
+            </div>
+
+            <div class="p-2">
+            <button type="button" class="">
+            <a href="mod_admin.php" style="color:#0F0908;">modificar administradores</a></button>
+            </div>
+            
+        </div>
+        <div>
+            <div class="p-2">
+            <h4>vendedores</h4>
+            <button type="button" class="">
+            <a href="signup_vendedor.php" style="color:#0F0908;">Crear vendedor nuevo</a></button>
+            </div>
+
+            <div class="p-2">
+            <button type="button" class=" ">
+            <a href="../Modelo/mostrar_vendedores.php" style="color:#0F0908;">mostrar vendedores</a></button>
+            </div>
+
+        </div>
+        <div>
+            <div class="p-2">
+            <h4>usuarios</h4>
+            <button type="button" class="">
+            <a href="../Modelo/mostrar_usuarios.php" style="color:#0F0908;">mostrar usuarios</a></button>
+            </div>
+        </div>      
+    </div>
+    </table>   
+    </form>
 </body>
 
 </html>

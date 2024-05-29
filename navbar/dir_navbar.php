@@ -21,4 +21,12 @@ function incluir_navbar() {
         echo "No hay barra de navegación para esta carpeta.";
     }
 }
+function volver(){
+    
+    if ($_POST=['volver']){
+        ?>
+        <button><a href="../Vista/menu_admin.php"style="color:#0F0908;">Volver</a></button>
+        <?php
+        }
+};
 ?>
