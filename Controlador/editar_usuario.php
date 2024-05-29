@@ -1,15 +1,17 @@
 <?php
-$id = $_POST["ID"];
+$editar = $_POST["editar"];
 $new_usuario = $_POST["new_usuario"];
-$new_contraseña = $_POST["contraseña"];
-$new_telefono = $_POST["telefono"];
-$estado = $_POST["estado"];
+$new_contraseña = $_POST["new_contraseña"];
+$new_email=$_POST["new_email"];
+$new_telefono = $_POST["new_telefono"];
+$cedula=$_POST["new_cedula"];
+$estado=$_POST["estado"];
 session_start();
-$_SESSION['ID'] = $id;
+$_SESSION['editar'] = $editar;
 
-include('bd.php'); 
+include('../Modelo/bd.php'); 
 
-$consulta = "UPDATE clientes SET Usuario = '$new_usuario', Contraseña= '$new_contraseña', Telefono= '$new_telefono', Activo='$estado' WHERE id = $id";
+$consulta = "UPDATE clientes SET Usuario = '$new_usuario', Contraseña= '$new_contraseña',email= '$new_email' ,Cedula= '$cedula' ,Telefono= '$new_telefono', Activo='$estado' WHERE cedula = $cedula";
 
 $resultado = mysqli_query($conexion,$consulta);
 
@@ -17,6 +19,6 @@ $resultado = mysqli_query($conexion,$consulta);
 mysqli_close($conexion);
 
 
-header("Location: mostrar/mostrar_usuarios.php")
+header("Location: ../Modelo/mostrar_usuarios.php")
 
 ?>

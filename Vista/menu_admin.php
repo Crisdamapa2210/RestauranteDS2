@@ -52,9 +52,19 @@
         </div>
         <div>
             <div class="p-2">
-            <h4>usuarios</h4>
+            <h4>Usuarios</h4>        
+            <button type="button" name="volver">
+            <a href="signup_ususario.php" style="color:#0F0908;">Crear Usuario nuevo</a></button>        
+            </div>
+
+            <div class="p-2">
             <button type="button" class="">
             <a href="../Modelo/mostrar_usuarios.php" style="color:#0F0908;">mostrar usuarios</a></button>
+            </div>
+
+            <div class="p-2">
+            <button type="button" class="">
+            <a href="mod_user.php" style="color:#0F0908;">modificar usuarios</a></button>
             </div>
         </div>      
     </div>

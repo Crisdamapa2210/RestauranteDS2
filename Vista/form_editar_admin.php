@@ -33,7 +33,7 @@
                     <p class="d-flex justify-content-center"><input class="form-control" type="email" value="<?php echo $mostrar["email"] ?>" name="new_email"></p>
                     <p class="d-flex justify-content-center"><input class="form-control" type="text"  value="<?php echo $mostrar["Telefono"] ?>"name="new_telefono"></p>
                     <p class="d-flex justify-content-center"><select name="estado" id="estado"class="form-select">
-                        <option value="1">Activo</option>
+                        <option value="1">Activo</option> 
                         <option value="0">Inactivo</option>
                     </select></p>
                 
@@ -46,4 +46,4 @@
 ?>
     
 </body>
-</html>
+</html> 

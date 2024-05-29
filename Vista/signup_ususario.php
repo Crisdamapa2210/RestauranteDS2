@@ -27,6 +27,10 @@ include("../navbar/dir_navbar.php");
       <input type="text" class="form-control" id="exampleInputtext" aria-describedby="emailText" name="usuario">
       <div id="emailText" class="form-text">Ingrese su correo electronico</div>
 
+      <label for="exampleInputtext" class="form-label">Cedula</label>
+      <input type="text" class="form-control" id="exampleInputtext" aria-describedby="emailText" name="cedula">
+      <div id="emailText" class="form-text">Ingresa tu Cedula de ciudadania</div>
+
       <label for="exampleInputPassword1" class="form-label">Password</label>
       <input type="password" class="form-control" id="exampleInputPassword1" name="contraseña">
       <div id="exampleInputPassword1" class="form-text">Ingrese su contraseña</div><br>

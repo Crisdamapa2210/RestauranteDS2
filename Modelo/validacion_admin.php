@@ -12,7 +12,7 @@ $resultado = mysqli_query($conexion,$consulta);
 $filas = mysqli_num_rows($resultado);
 $resultado2=mysqli_query($conexion,$consulta2);
 $fila2=mysqli_num_rows($resultado2);
-$stmt = $conexion->prepare("SELECT Activo FROM admin WHERE email = ? AND contraseña = ?");
+$stmt = $conexion->prepare("SELECT Activo FROM admin WHERE email =? AND contraseña = ?");
 $stmt->bind_param("ss", $email, $contraseña);
 $stmt->execute();
 $stmt->store_result();

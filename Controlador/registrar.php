@@ -4,16 +4,18 @@ include("../Modelo/bd.php");
 if (isset($_POST['ingresar'])) {
     if (strlen($_POST['usuario'])>=1 && 
         strlen($_POST['email'])>=1 &&
+        strlen($_POST['cedula'])>=1 &&
         strlen($_POST['telefono'])>=1 &&
         strlen($_POST['contraseña'])>=1 &&
         strlen($_POST['confirmar_contraseña'])>=1) {
         if ($_POST['contraseña'] == $_POST['confirmar_contraseña']) {
             $usuario1 =($_POST['usuario']);
-            $email =($_POST['email']);
             $contraseña = ($_POST['contraseña']);
+            $email =($_POST['email']);
+            $cedula =($_POST['cedula']);           
             $telefono =($_POST['telefono']);
             
-            $consulta= "INSERT INTO clientes(usuario, email, contraseña, telefono, Activo) VALUES ('$usuario1','$email','$contraseña','$telefono', 1)";
+            $consulta= "INSERT INTO clientes(usuario, contraseña, email, cedula, telefono, Activo) VALUES ('$usuario1','$contraseña','$email','$cedula','$telefono', 1)";
             $resultado = mysqli_query($conexion, $consulta);
             if ($resultado) {
                 ?>
