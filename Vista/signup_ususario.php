@@ -12,9 +12,9 @@ include("../navbar/dir_navbar.php");
 </head>
 
 <body class="bg-secondary">
-<?php incluir_navbar(); ?>
+<?php incluir_navbar(); ?><br>
   <form class="bg-secondary d-flex justify-content-center"  method="post">
-    <div class="bg-white p-5 rounded-5">
+    <div class="bg-white col-3 p-3 rounded-5">
       <div 
         class="d-flex justify-content-center "><img src="../imagen/login.png" height="130px" width="130px">
       </div>
@@ -43,15 +43,16 @@ include("../navbar/dir_navbar.php");
       <input type="text" class="form-control" id="exampleInputTel" aria-describedby="telHelp" name="telefono">
       <div id="emailHelp" class="form-text">Ingrese su Numero telefonico</div> <br>
 
-      <button type="submit" class="btn btn-primary" name="ingresar">ingresar</button>  
+      <button type="submit" class="btn btn-primary" name="ingresar">ingresar</button> 
+      </div> 
   </form>
         <?php 
         include("../Controlador/registrar.php");
         ?>
- 
-  
-  
 </body>
 
-
+<?php
+include("pie.php");
+incluir_pie();
+?>
 </html>

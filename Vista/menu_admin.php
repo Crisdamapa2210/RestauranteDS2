@@ -14,10 +14,12 @@
 <?php
       incluir_navbar();
    ?>
+
+<center><h1>Menu de administrador</h1></center>
     
-    <form class="d-flex justify-content-center" action="../navbar/dir_navbar.php" method="post">
-    <div class="d-flex flex-column mb-3">
-    <table>
+    <form class="d-flex justify-content-center"  method="post">
+    <div class="col-9">
+    
     <div class="d-flex justify-content-between">
         <div>
             <div class="p-2">
@@ -68,8 +70,13 @@
             </div>
         </div>      
     </div>
-    </table>   
+    <br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
+    </div>
+      
     </form>
 </body>
-
+<?php
+include("pie.php");
+incluir_pie();
+?>
 </html>

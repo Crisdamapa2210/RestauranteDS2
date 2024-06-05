@@ -13,7 +13,7 @@ include("bd.php");
 </head>
 <body>
 
-<button><a href="../Vista/menu_admin.php"style="color:#0F0908;">volver</a></button>
+<button><a href="../Vista/menu_vendedor.php"style="color:#0F0908;">volver</a></button>
 <br>
 
 <table class="table table-striped-columns">
@@ -26,7 +26,7 @@ include("bd.php");
     </tr>
 
     <?php 
-    $sql="SELECT * FROM vendedores";
+    $sql="SELECT * FROM clientes";
     $result=mysqli_query($conexion, $sql);
 
     while($mostrar=mysqli_fetch_array($result)){
@@ -34,10 +34,10 @@ include("bd.php");
 
     <tr>
         <td><?php echo $mostrar['email']?></td>
-        <td><?php echo $mostrar['Usuario']?></td>
-        <td><?php echo $mostrar['Cedula']?></td>
-        <td><?php echo $mostrar['Telefono']?></td>
-        <td><?php echo $mostrar['Activo']?></td>
+        <td><?php echo $mostrar['usuario']?></td>
+        <td><?php echo $mostrar['cedula']?></td>
+        <td><?php echo $mostrar['telefono']?></td>
+        <td><?php echo $mostrar['activo']?></td>
     </tr>
     <?php 
     }

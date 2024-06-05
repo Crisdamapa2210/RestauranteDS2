@@ -21,7 +21,7 @@
       </div>
       <h1 class="d-flex justify-content-center">Login</h1>
       <label for="exampleInputEmail1" class="form-label">Correo electronico</label>
-      <input type="text" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" name="usuario">
+      <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" name="usuario">
       <div id="emailHelp" class="form-text">Ingrese su correo electronico</div>  
       <label for="exampleInputPassword1" class="form-label">Password</label>
       <input type="password" class="form-control" id="exampleInputPassword1" name="contraseña">
@@ -29,10 +29,9 @@
       <button type="submit" class="btn btn-primary">ingresar</button>
   </div>    
   </form>
-
- 
-  
-  
 </body>
-
+<?php
+include("pie.php");
+incluir_pie();
+?>
 </html>

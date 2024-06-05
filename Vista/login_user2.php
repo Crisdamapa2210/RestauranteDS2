@@ -14,6 +14,7 @@ include("../navbar/dir_navbar.php");
 <?php
       incluir_navbar();
    ?>
+   <br>
   <form class="bg-secondary d-flex justify-content-center" action="../Modelo/validacion.php" method="post">
     <div class="bg-white p-5 rounded-5">
       <div 
@@ -36,5 +37,8 @@ include("../navbar/dir_navbar.php");
   
   
 </body>
-
+<?php
+include("pie.php");
+incluir_pie();
+?>
 </html>

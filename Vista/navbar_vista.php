@@ -17,11 +17,9 @@
     <div class="collapse navbar-collapse" id="navbarSupportedContent">
       <ul class="navbar-nav me-auto mb-2 mb-lg-0">
         <li class="nav-item">
-          <a class="nav-link active" aria-current="page" href="login_admin2.php">Reservas</a>
+          <a class="nav-link active" aria-current="page" href="quienes_somos.php">¿Quienes Somos?</a>
         </li>
-        <li class="nav-item">
-          <a class="nav-link active" aria-current="page" href="login_admin2.php">Comida</a>
-        </li>
+
         <li class="nav-item">
           <a class="nav-link" href="../Vista/signup_ususario.php">Registrar</a>
         </li>
@@ -42,7 +40,7 @@
       </form>
     </div>
   </div>
-</nav><br>
+</nav>
 
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" 
     integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>

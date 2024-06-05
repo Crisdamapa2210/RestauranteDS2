@@ -15,5 +15,9 @@
         <p><input type="submit" name="enviar"></p>
         
     </form>
-</bodybg>
+</body>
+<?php
+include("pie.php");
+incluir_pie();
+?>
 </html>

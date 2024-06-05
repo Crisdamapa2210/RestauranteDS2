@@ -31,5 +31,8 @@ include("../navbar/dir_navbar.php");
  
   
 </body>
-
+<?php
+include("pie.php");
+incluir_pie();
+?>
 </html>

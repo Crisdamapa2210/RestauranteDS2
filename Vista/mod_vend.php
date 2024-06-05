@@ -10,8 +10,8 @@
 </head>
 <body class=bg-info>
     <?php incluir_navbar();?>
-    <form class="d-flex justify-content-center bg-info "action="form_editar_usuario.php" method="post">
-        <p><input type="text" name="cedula" placeholder="cedula del usuario "></p>
+    <form class="d-flex justify-content-center bg-info "action="form_editar_ven.php" method="post">
+        <p><input type="text" name="cedula" placeholder="cedula del Vendedor "></p>
         <p><input type="submit" name="enviar"></p>
         
     </form>

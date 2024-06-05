@@ -24,25 +24,30 @@ if ($stmt->num_rows > 0) {
     if ($activo == 1) {
         if ($filas) {
             header("location: ../Vista/menu_user.php");
-        }else {       
-            include("../Vista/login_user2.php");
+        }else { 
             ?>
-            <br>
-            <h3 class="bad bg-danger d-flex justify-content-center">Usuario o contraseña equivocados</h3>
+            <script>alert("Usuario o Contraseña equivocado")</script>
             <?php
+             include("../Vista/login_user2.php");
+             
     }}else{
         ?>
-        <br>
-        <h3 class="bad bg-danger d-flex justify-content-center">Usuario Bloqueado</h3>
+        <script>alert("Usuario bloqueado")</script>
+        
+        
         <?php
-
+            include("../Vista/login_user2.php");
         } 
         
 }else{
 ?>
-<br>
-<h3 class="bad bg-danger d-flex justify-content-center">Usuario No Existe</h3>
+
+<script>
+    alert("Usuario No existe");
+</script>
+
 <?php 
+include("../Vista/login_user2.php");
 }
 
 mysqli_free_result($resultado);

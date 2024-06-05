@@ -20,25 +20,25 @@ if (isset($_POST['ingresar'])) {
             if ($resultado) {
                 ?>
                 <br>
-                <h3 class='ok'>¡Te has registrado correctamente!</h3>
+                <center><h3 class='ok'>¡Te has registrado correctamente!</h3></center>
                 <?php
                 
             }else {
                 ?>
                 <br>
-                <h3 class='bad'>¡Algo ha salido mal!</h3>
+                <center><h3 class='bad'>¡Algo ha salido mal!</h3></center>
                 <?php
             }
         }else{
                 ?>
                 <br><br>
-                <h3 class='bad'>Las cotraseñas no coinciden</h3>
+                <center><h3 class='bad'>Las cotraseñas no coinciden</h3></center>
                 <?php
         }
     }else {
         ?>
         <br>
-                <h3 class='bad'>Completa todos los campos</h3>
+               <center> <h3 class='bad'>Completa todos los campos</h3></center>
                 <?php
     }
 }

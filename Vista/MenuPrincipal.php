@@ -36,6 +36,26 @@ include("../navbar/dir_navbar.php");
     <span class="carousel-control-next-icon" aria-hidden="true"></span>
     <span class="visually-hidden">Next</span>
   </button>
-</div>
+</div><br><br>
+<center><h1>Bienvenido a Food's Store</h1></center>
+
+  
+    <center>
+    <h3 class="lead">en Food's Store encontraremos una variedad de comida rapida de nuestro restaurante.<br>
+                    En Esta pagina podras hacer reservaciones en nuestro restaurante y hacer pedidos a domicilio <br>
+                    Pides por internet y pagas cuando recibas el pedido... Prueba esta nueva forma de <br>
+                    disfrutar desde casa tus antojos preferidos.<br><br>
+                    
+                    La idea apenas comienza, dejanos tu sugerencia de como mejorar nuestro servicio y <br>
+                    nuestra pagina web para una mejor atencion al cliente<br>
+    </h3><br><h2><b>¡¡ Registrate Ahora !!</b></h2><br>
+    <a href="signup_ususario.php"><button class="btn btn-primary">Registrate</button></a>
+    </center>
+<br><br><br><br>
+
 </body>
+<?php
+include("pie.php");
+incluir_pie();
+?>
 </html>

@@ -6,7 +6,7 @@ $_SESSION['usuario'] = $usuario;
 
 include('bd.php'); 
 
-$consulta = "SELECT * FROM vendedores WHERE Usuario='$usuario' AND Contraseña='$contraseña'";
+$consulta = "SELECT * FROM vendedores WHERE email='$usuario' AND Contraseña='$contraseña'";
 
 $resultado = mysqli_query($conexion,$consulta);
 
